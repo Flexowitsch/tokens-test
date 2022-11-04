@@ -1,0 +1,233 @@
+{
+  "FM Global Base": {
+    "bold": {
+      "value": "Bold",
+      "type": "fontWeights"
+    },
+    "regular": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "space-medium": {
+      "value": "16px",
+      "type": "spacing"
+    },
+    "space-small": {
+      "value": "8px",
+      "type": "spacing"
+    },
+    "TeleNeo": {
+      "value": "TeleNeo",
+      "type": "fontFamilies"
+    },
+    "text-m": {
+      "value": "16px",
+      "type": "fontSizes"
+    },
+    "text-l": {
+      "value": "22px",
+      "type": "fontSizes"
+    },
+    "white-900": {
+      "value": "#fff",
+      "type": "color"
+    },
+    "blue-600": {
+      "value": "#4762ea",
+      "type": "color"
+    },
+    "blue-500": {
+      "value": "#687de8",
+      "type": "color"
+    },
+    "black-900": {
+      "value": "#000",
+      "type": "color"
+    },
+    "black-600": {
+      "value": "rgba(0,0,0,0.25)",
+      "type": "color"
+    },
+    "border-radius-medium": {
+      "value": "16px",
+      "type": "borderRadius"
+    },
+    "border-radius-8px": {
+      "value": "8px",
+      "type": "borderRadius"
+    },
+    "card-box-shadow": {
+      "value": {
+        "x": "2",
+        "y": "4",
+        "blur": "9",
+        "spread": "0",
+        "color": "{black-600}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "color-green-500": {
+      "value": "#a1e276",
+      "type": "color"
+    }
+  },
+  "FM Lightmode": {
+    "button-primary-text": {
+      "value": {
+        "fontFamily": "$TeleNeo",
+        "fontWeight": "$bold",
+        "fontSize": "$text-m"
+      },
+      "type": "typography"
+    },
+    "button-primary-text-color": {
+      "value": "$white-900",
+      "type": "color"
+    },
+    "button-primary-background-color": {
+      "value": "$blue-600",
+      "type": "color"
+    },
+    "button-border-radius": {
+      "value": "$border-radius-8px",
+      "type": "borderRadius"
+    },
+    "space-button-padding": {
+      "value": "{space-small}*1.5",
+      "type": "spacing"
+    },
+    "card-text-color": {
+      "value": "{black-900}",
+      "type": "color"
+    },
+    "card-headline": {
+      "value": {
+        "fontFamily": "{TeleNeo}",
+        "fontWeight": "{bold}",
+        "fontSize": "{text-l}"
+      },
+      "type": "typography"
+    },
+    "card-body": {
+      "value": {
+        "fontFamily": "{TeleNeo}",
+        "fontWeight": "{regular}",
+        "fontSize": "{text-m}"
+      },
+      "type": "typography"
+    },
+    "space-card-headline-body": {
+      "value": "{space-small}",
+      "type": "spacing"
+    },
+    "space-card-button": {
+      "value": "{space-medium}",
+      "type": "spacing"
+    },
+    "space-card-padding": {
+      "value": "{space-small}*3",
+      "type": "spacing"
+    },
+    "card-border-radius": {
+      "value": "{border-radius-8px}*3",
+      "type": "borderRadius"
+    },
+    "card-shadow": {
+      "value": {
+        "x": "2",
+        "y": "4",
+        "blur": "8",
+        "spread": "0",
+        "color": "{black-900}",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow"
+    }
+  },
+  "FM Darkmode": {
+    "button-primary-text": {
+      "value": {
+        "fontFamily": "$TeleNeo",
+        "fontWeight": "$bold",
+        "fontSize": "$text-m"
+      },
+      "type": "typography"
+    },
+    "button-primary-text-color": {
+      "value": "$white-900",
+      "type": "color"
+    },
+    "button-primary-background-color": {
+      "value": "$pink-600",
+      "type": "color"
+    },
+    "button-border-radius": {
+      "value": "$border-radius-8px",
+      "type": "borderRadius"
+    },
+    "space-button-padding": {
+      "value": "{space-small}*1.5",
+      "type": "spacing"
+    },
+    "card-text-color": {
+      "value": "{white-900}",
+      "type": "color"
+    },
+    "card-headline": {
+      "value": {
+        "fontFamily": "{TeleNeo}",
+        "fontWeight": "{bold}",
+        "fontSize": "{text-l}"
+      },
+      "type": "typography"
+    },
+    "card-body": {
+      "value": {
+        "fontFamily": "{TeleNeo}",
+        "fontWeight": "{regular}",
+        "fontSize": "{text-m}"
+      },
+      "type": "typography"
+    },
+    "space-card-headline-body": {
+      "value": "{space-small}",
+      "type": "spacing"
+    },
+    "space-card-button": {
+      "value": "{space-medium}",
+      "type": "spacing"
+    },
+    "space-card-padding": {
+      "value": "{space-small}*3",
+      "type": "spacing"
+    },
+    "card-border-radius": {
+      "value": "{border-radius-8px}*3",
+      "type": "borderRadius"
+    },
+    "card-shadow": {
+      "value": {
+        "x": "2",
+        "y": "4",
+        "blur": "8",
+        "spread": "0",
+        "color": "{black-900}",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow"
+    },
+    "card-bg-color": {
+      "value": "{black-900}",
+      "type": "color"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "FM Global Base",
+      "FM Lightmode",
+      "FM Darkmode"
+    ]
+  }
+}
